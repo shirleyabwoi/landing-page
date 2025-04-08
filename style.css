@@ -354,6 +354,7 @@ footer{
     display: flex;
     gap: 5%;
 }
+
 #map{
     width: 100%;
     height: 1000px;
@@ -373,6 +374,9 @@ footer{
 .rasiHomepage{
     position: relative;
 }
+.iconContainer{
+    margin-bottom: 1px;
+}
 .headText{
     position: absolute;
     top: 50%;
@@ -390,6 +394,9 @@ footer{
             font-size: 15px;
             margin-left: 62px;
             
+        }
+        body{
+            border: 3px solid red;
         }
         #text{
             font-size: 10px;
@@ -409,7 +416,7 @@ footer{
             height: auto;
         }
         #contactusButton{
-            width: 100%;
+            width: 95%;
             height: auto;
             margin-left: -5px;
         }
@@ -423,16 +430,140 @@ footer{
             background-color: white; 
         }
         #printingImg{
-            width: 1%;
-            height: min-content;
+            width: 100%;
+            height: 35%;
+            margin-left: auto;
         }
         .pageHeadtext{
            margin-top: auto;
         }
-       
     .rasiImages{
         display: grid;
-        
+        gap: 5%; 
+    }
+    .contactDetails{
+        display: flex;
+        gap: 15%;
+    }
+    .contactIcons{
+        display: grid;
+    }
+    .footerText{
+        margin-left: auto;
+    }
+    .contactInformation{
+        display: block;
+        position: relative;
+        font-size: 10px;
+        gap: 20px;
+        width: 10%;
+    }
+    .copyright{
+        margin-top: 70px;
+    }
+    #footerLine{
+        margin-top: 300px;
+    }
+    .footerContainer{
+        display: grid;
+        margin-top: 0%;
+    }
+    #phoneIcon{
+        padding: 20%;
+        margin-left: -100px;
+        font-size: 10px;
+    }
+    
+    #map{
+        width: 100%;
+        height: 400px;
+    }
+    .images{
+        display: flex;
+        margin-left: auto;
+    }
+    #clientImage{
+        width: 100%;
+        margin-left: auto;
+        height: 2%;
+    }
+    #product{
+        width: 30%;
+        height: 150px;
+    }
+    #productImage{
+        width: 30%;
+        height: 150px;
+    }
+    .companyLogo{
+        display: block;
+    }
+    .pillowImage{
+        width: 50%;
+        margin-top: 0%;
+    }
+    .iconContainerSustainable{
+        margin-top: -60px;
+        margin-bottom: 40px;
+        display: flex;
+        gap: 10%;
+    }
+    .starIcon{
+        display: flex;
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+    .ratingSection{
+        display: grid;
+        margin-left: auto;
+        margin-bottom: 0%;
+    }
+    .logoContainer{
+        width: 100%;
+    }
+    #productPicture{
+        height: 150px;
+    }
+    .logoContainer{
+        width: 90%;
+    }
+    .logoContainerArvind{
+        width: 90%;
+        margin-left: 1px;
+    }
+    .container{
+        display: grid;
+        margin-left: auto;
+    }
+    .logoContainerRaymond{
+        width: 90%;
+        margin-left: 1px;
+    }
+    #head-text{
+        margin-left: auto;
+    }
+    .screenprintType{
+        margin-top: auto;
+    }
+    .printingImg{
+        display: block;
+        margin: auto;
+       margin-top: none;
+    }
+    #printingPicture{
+        width: 100%;
+        height: 55%;
+    }
+    .printingPicture{
+     display: grid;
+    }
+    .printingIMage{
+        display: grid;
+        margin: auto;
+    }
+    #printingImage{
+        width: 100%;
+        height: 35%;
     }
 #screenPrintAbout{
     font-size: 20px;
