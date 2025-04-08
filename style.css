@@ -1,0 +1,451 @@
+header{
+    background-color: rgb(107, 185, 107);
+    color: white;
+   justify-items: center;
+   border-width: 100%;
+   padding-bottom: 2%; 
+}
+#italicText{
+    font-style: italic;
+    margin-left: 9px;
+}
+.ratingSection{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 10%;
+    font-size: 30px;
+}
+#pillowImage{
+    width: 190%;
+    height: 100%;
+    border-radius: 20px;
+}
+#arvindstoreImage{
+    width: 7%;
+    height: 5%;
+    margin-top: 15px;
+}
+#markalrLogo{
+    width: 7%;
+    height: 10%;
+    margin-top: 30px;
+}
+#pumaLogo{
+    width: 10%;
+    height: 10%;
+    margin-top: 20px;
+}
+#productPicture{
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+}
+#product{
+    width: 30%;
+    height: 650px;
+    border-radius: 10px;
+}
+#clientImage{
+border-radius: 10px;
+width: 90%;
+margin-top: 20px;
+height: 900px;
+margin-left: 100px;
+}
+#productImage{
+    width: 30%;
+    height: 660px;
+    border-radius: 10px;
+}
+.pageHeadtext{
+    font-size: 30px;
+   justify-self: center;
+}
+#birlaLogo{
+    width: 7%;
+    height: 7%;
+}
+#myntraLogo{
+    width: 15%;
+    height: 15%;
+    margin-top: -20px;
+
+}
+#converseLogo{
+    width: 15%;
+    height: 15%;
+    margin-top: -60px;
+}
+#gapLogo{
+    width: 15%;
+    height: 20%;
+    margin-top: 37px;
+}
+#rasiText{
+    color: white;
+    font-size: 30px;
+    margin-top: -6px;
+}
+#homepageImage{
+    width: 100%;
+    height: 50%;
+    filter: brightness(50%);
+    
+}
+#screenprintingImage{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+   box-shadow: 0px 20px 20px grey;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.aboutScreenprinting{
+    display: flex;
+    gap: 5%;
+    margin-left: 5%;
+    margin-bottom: 130px;
+    margin-top: 110px;
+}
+.companyLogo{
+    display: flex;
+    gap: 5%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.rasiServices{
+    display: flex;
+    background-color: rgb(222, 238, 243);
+    gap: 15%;
+    margin-bottom: 130px;
+    padding: 20px;
+    font-size: 20px;
+}
+.iconContainer{
+    display: flex;
+    gap: 30px;
+}
+.rasiImages{
+    margin-top: 50px;
+    display: flex;
+    gap: 5%;
+    margin-left: 40px;
+}
+#printingIMage{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+#printingImg{
+    width: 155%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: -150px;
+}
+#printingPicture{
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#arrowIcon{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: lightblue;
+}
+#arvindaLogo{
+    width: 15%;
+    height: 49%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#adityaLogo{
+    width: 14%;
+    height: 72%;
+    margin-top: 30px;
+}
+.logoContainer{
+display: flex;
+gap: 3%;
+box-shadow: 0px 20px 20px grey;
+background-color: white;
+width: 30%;
+
+}
+.logoContainerRaymond{
+    box-shadow: 0px 20px 20px grey;
+background-color: white;
+width: 90%;
+display: flex;
+gap: 3%;
+margin-left: 10px;
+height: 100%;
+
+}
+.logoContainerArvind{
+    display: flex;
+    gap: 10%;
+    box-shadow: 0px 20px 20px grey;
+background-color: white;
+width: 30%;
+margin-left: 10px;
+
+}
+.screenprintType{
+    display: flex;
+    gap: 5%;
+    margin-top: 10px;
+}
+.aboutClients{
+    margin-top: 200px;
+   justify-self: center;
+}
+.container{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 100px;
+}
+#raymondLogo{
+    width: 20%;
+    height: 49%;
+    margin-top: 40px;
+    margin-left: 10px;
+   
+}
+
+.topBar{
+    display: flex;
+    gap: 500px;
+    position: absolute;
+    top: 50px;
+    margin-left: 80px;
+    width: auto;
+    margin-right: 80px;
+}
+.images{
+    display: flex;
+    gap: 4%;
+    margin-left: 40px;
+}
+#text-head{
+    font-size: 90px;
+    color: white;
+    
+
+}
+#contactButton{
+    cursor: pointer;
+    background-color:whitesmoke;
+    padding: 20px;
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    height: 70px;
+    filter: opacity(40%);
+    margin-left: 180px;
+    font-size: 30px;
+    
+   
+}
+#greenText{
+    color: rgb(107, 185, 107);
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+#contactusButton{
+    border: solid 2px black;
+    border-radius: 40px;
+    width: 30%;
+    height: 75px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+#knowmoreButton{
+    background-color: rgb(107, 185, 107);
+    border-radius: 40px;
+    border: none;
+    width: 30%;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+}
+#printAboutParagraph{
+    font-size: 30px;
+    font-weight: 10px;
+}
+#screenPrintAbout{
+    font-size: 70px;
+}
+#rasiNumber{
+   justify-self: center;
+   font-size: 50px;
+}
+.buttons{
+    margin-top: 70px;
+}
+#text{
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.copyright{
+   justify-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #112131;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
+.map{
+    position: relative;
+}
+#head-text{
+    margin-left: 130px;
+}
+.mapImage{
+    position: relative;
+}
+#images-text{
+    font-size: 20px;
+}
+#icon{
+    margin-top: 15px;
+}
+.contactIcons{
+    display: flex;
+    gap: 15px;
+}
+.footerText{
+    margin-left: -390px;
+}
+#footerLogo{
+    width: 30%;
+    height: 75%;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.footerContainer{
+    display: flex;
+    gap: 5%;
+}
+#phoneIcon{
+    background-color: black;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 17px;
+    
+    
+
+}
+.contactDetails{
+    display: flex;
+    gap: 5%;
+}
+#map{
+    width: 100%;
+    height: 1000px;
+}
+.contactInformation{
+    background-color: white;
+    border-bottom: 10px;
+    display: grid;
+    gap: 10%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 10px;
+    padding: 130px;
+    
+}
+.rasiHomepage{
+    position: relative;
+}
+.headText{
+    position: absolute;
+    top: 50%;
+   margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+    @media only screen and (max-width:768px) {
+       
+        #rasiText{
+            font-size: 20px;
+            margin-left: -80px;
+            margin-top: -40px;
+        }
+        #text-head{
+            font-size: 15px;
+            margin-left: 62px;
+            
+        }
+        #text{
+            font-size: 10px;
+            margin-left: 70px;
+        }
+        #contactButton{
+            width: 20%;
+            min-height: 2%;
+            font-size: 1%;
+        }
+        #greenText{
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+        #knowmoreButton{
+            width: 100%;
+            height: auto;
+        }
+        #contactusButton{
+            width: 100%;
+            height: auto;
+            margin-left: -5px;
+        }
+        .buttons{
+            display: grid;
+            gap: 8%;
+            
+        }
+        .rasiServices{
+            display: grid;
+            background-color: white; 
+        }
+        #printingImg{
+            width: 1%;
+            height: min-content;
+        }
+        .pageHeadtext{
+           margin-top: auto;
+        }
+       
+    .rasiImages{
+        display: grid;
+        
+    }
+#screenPrintAbout{
+    font-size: 20px;
+}
+#printAboutParagraph{
+    font-size: 10px;
+}
+
+        body{
+            max-width: 100%;
+        }
+      
+    }
+
+
+
